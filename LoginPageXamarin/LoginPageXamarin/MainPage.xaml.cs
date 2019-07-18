@@ -17,5 +17,11 @@ namespace LoginPageXamarin
         {
             InitializeComponent();
         }
+
+        private void BtnClick_Clicked(object sender, EventArgs e)
+        {
+            ButtonLabel.Text = DataEntry.Text;
+            DataEntry.Text = "";
+        }
     }
 }
