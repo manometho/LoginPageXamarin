@@ -15,7 +15,7 @@
                x:Name="DataEntry"/>
         <Button Text="Click Me!"
                 x:Name="btnClick"
-                Clicked="BtnClick_Clicked"/>
+                Clicked="BtnClick_ClickedAsync"/>
         
     </StackLayout>
 

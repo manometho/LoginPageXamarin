@@ -18,9 +18,9 @@ namespace LoginPageXamarin
             InitializeComponent();
         }
 
-        private void BtnClick_Clicked(object sender, EventArgs e)
+        private async void BtnClick_ClickedAsync(object sender, EventArgs e)
         {
-            ButtonLabel.Text = DataEntry.Text;
+            await DisplayAlert("Mensaje", DataEntry.Text, "OK");
             DataEntry.Text = "";
         }
     }
